@@ -1,2 +1,3 @@
 #!/bin/bash
-sort | perl -ne 'print if $. % 2 != 0'g
+sort | perl -ne 'print if $. % 2 != 0'
+
